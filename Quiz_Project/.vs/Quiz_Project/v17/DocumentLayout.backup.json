@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\views\\home\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\views\\home\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\views\\home\\accountsetting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\views\\home\\accountsetting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\views\\auth\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\views\\auth\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|d:\\du\\sem4\\.net\\quiz_project\\quiz_project\\quiz_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093E3865-4AFA-40C5-BAE7-F44650525C29}|Quiz_Project\\Quiz_Project.csproj|solutionrelative:quiz_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Quiz_Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Quiz_Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAEwMwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T14:48:05.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountSetting.cshtml",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Home\\AccountSetting.cshtml",
+              "RelativeDocumentMoniker": "Quiz_Project\\Views\\Home\\AccountSetting.cshtml",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Home\\AccountSetting.cshtml",
+              "RelativeToolTip": "Quiz_Project\\Views\\Home\\AccountSetting.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAEwHUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T14:41:58.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyProfile.cshtml",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Home\\MyProfile.cshtml",
+              "RelativeDocumentMoniker": "Quiz_Project\\Views\\Home\\MyProfile.cshtml",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Home\\MyProfile.cshtml*",
+              "RelativeToolTip": "Quiz_Project\\Views\\Home\\MyProfile.cshtml*",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAEwJ8AAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T14:35:54.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cshtml",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Auth\\LoginForm.cshtml",
+              "RelativeDocumentMoniker": "Quiz_Project\\Views\\Auth\\LoginForm.cshtml",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Auth\\LoginForm.cshtml",
+              "RelativeToolTip": "Quiz_Project\\Views\\Auth\\LoginForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T14:32:43.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Quiz_Project\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Quiz_Project\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T17:26:00.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Quiz_Project\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Quiz_Project\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T17:25:43.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Quiz_Project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Quiz_Project\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:24:41.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Quiz_Project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Quiz_Project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAEwKgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T17:19:00.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

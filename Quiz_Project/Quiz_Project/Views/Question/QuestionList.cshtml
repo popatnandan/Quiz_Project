@@ -1,0 +1,145 @@
+﻿<!-- Favicons -->
+<link href="~/assets/img/favicon.png" rel="icon">
+<link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="~/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+<link href="~/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+<link href="~/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="~/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="~/assets/css/style.css" rel="stylesheet">
+
+
+<div class="pagetitle">
+    <h1>Question List</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="QuizList" asp-controller="Quiz">Question</a></li>
+            <li class="breadcrumb-item">List</li>
+            <li class="breadcrumb-item active">Question List</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+<section class="section">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Search Question</h5>
+                <!-- No Labels Form -->
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Question Text">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Correct Options">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" placeholder="Qeustion Marks">
+                    </div>
+                    <div class="text-start">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                    </div>
+                </form><!-- End No Labels Form -->
+                <br>
+                <h2 class="card-title">Question List</h2>
+                <table class="table datatable">
+                    <div class="d-flex p-3 justify-content-end">
+                        <a asp-action="AddEdit" asp-controller="Question" class="btn btn-primary w-20">
+                            <i class="bi bi-plus"></i> Add Question
+                        </a>
+                    </div>
+                    <thead>
+                        <tr>
+                            <th>
+                                <b>Q</b>uestion ID
+                            </th>
+                            <th>Question Text</th>
+                            <th>Option A</th>
+                            <th>Option B</th>
+                            <th>Option C</th>
+                            <th>Option D</th>
+                            <th>Correct Option</th>
+                            <th>Question Marks</th>
+                            <th>User Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                ASP.NET is a ____.
+                            </td>
+                            <td>
+                                Client-Side technology
+                            </td>
+                            <td>
+                                Server-side technology
+                            </td>
+                            <td>Both</td>
+                            <td>None</td>
+                            <td>B</td>
+                            <td>25</td>
+                            <td>Karan</td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>
+                               What is the full form ASP?
+                            </td>
+                            <td>
+                                Access Server Pages
+                            </td>
+                            <td>
+                                Active Service Pages
+                            </td>
+                            <td>
+                                Active Server Pages
+                            </td>
+                            <td>
+                                Access Service Pages
+                            </td>
+                            <td>C</td>
+                            <td>20</td>
+                            <td>Yash</td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Vendor JS Files -->
+<script src="~/assets/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/vendor/chart.js/chart.umd.js"></script>
+<script src="~/assets/vendor/echarts/echarts.min.js"></script>
+<script src="~/assets/vendor/quill/quill.js"></script>
+<script src="~/assets/vendor/simple-datatables/simple-datatables.js"></script>
+<script src="~/assets/vendor/tinymce/tinymce.min.js"></script>
+<script src="~/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="~/assets/js/main.js"></script>
