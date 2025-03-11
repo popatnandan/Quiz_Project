@@ -1,0 +1,188 @@
+﻿<div class="pagetitle">
+    <h1>Quiz Wise Questions</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="QuizList" asp-controller="Quiz">QuizWise Question</a></li>
+            <li class="breadcrumb-item">Quiz Wise Question</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+<section class="section">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Search</h5>
+                <!-- No Labels Form -->
+                <form class="row g-3">
+                    <div class="col-md-3">
+                        <label for="quizname" class="form-label">
+                            <span class="required bold text-danger">*</span>
+                            Select Quiz
+                        </label>
+                        <select class="form-select" aria-label="">
+                            <option selected disabled>Select Quiz</option>
+                            <option>English Grammer Test</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <button type="submit" class="btn btn-success mt-3">Search</button>
+                        <button type="reset" class="btn btn-danger mt-3">Reset</button>
+                    </div>
+                </form><!-- End No Labels Form -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <br>
+                <h2 class="card-title">Quiz List</h2>
+                <table class="table datatable">
+                    <div class="d-flex p-3 justify-content-end">
+                        <a asp-action="AddEdit" asp-controller="Quiz" class="btn btn-primary w-20">
+                            <i class="bi bi-plus"></i> Add Quiz
+                        </a>
+                    </div>
+                    <thead>
+                        <tr>
+                            <th>Quiz Name</th>
+                            <th>Entered Questions</th>
+                            <th>User Name</th>
+                            <th>ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tree</td>
+                            <td>02</td>
+                            <td>Yash</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>05</td>
+                            <td>Karan</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Smart Ai</td>
+                            <td>04</td>
+                            <td>Gokul</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Qroovc</td>
+                            <td>10</td>
+                            <td>Krithika</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Computer</td>
+                            <td>11</td>
+                            <td>Shiv</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Spam Message</td>
+                            <td>20</td>
+                            <td>Utsav</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Cloud</td>
+                            <td>10</td>
+                            <td>Ramesh</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Rain</td>
+                            <td>15</td>
+                            <td>Tihsa</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>30</td>
+                            <td>Priya</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Laptop</td>
+                            <td>15</td>
+                            <td>Ravi</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Routing</td>
+                            <td>10</td>
+                            <td>Nisha</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>C Sharp</td>
+                            <td>09</td>
+                            <td>Ayush</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-info btn-sm" title="Details"><i class="bi bi-info-circle">Details</i></a>
+                                <a href="#" class="btn btn-outline-success btn-sm" title="Edit"><i class="bi bi-pencil">Edit</i></a>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Delete"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</section>

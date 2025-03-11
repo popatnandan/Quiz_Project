@@ -1,0 +1,86 @@
+﻿<div class="pagetitle">
+    <h1>Quiz Wise Question Detials</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Quiz Wise Question</li>
+            <li class="breadcrumb-item active">Quiz Wise Question Detials</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+<section class="section">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Quiz Question Details</h2>
+                <table class="table datatable">
+                    <div class="d-flex p-3 justify-content-end">
+                        <a asp-action="AddEdit" asp-controller="Question" class="btn btn-danger w-20">
+                            <i class="bi bi-trash"></i> Delete Selected
+                        </a>
+                        <a asp-action="AddEdit" asp-controller="Question" class="btn btn-primary w-20">
+                            <i class="bi bi-plus"></i> Add Question
+                        </a>
+                    </div>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Question</th>
+                            <th>Option A</th>
+                            <th>Option B</th>
+                            <th>Option C</th>
+                            <th>Option D</th>
+                            <th>Correct Option</th>
+                            <th>Marks</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="name" value="" /></td>
+                            <td>
+                                ASP.NET is a ____.
+                            </td>
+                            <td>
+                                Client-Side technology
+                            </td>
+                            <td>
+                                Server-side technology
+                            </td>
+                            <td>Both</td>
+                            <td>None</td>
+                            <td>B</td>
+                            <td>25</td>
+                            <td>
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="name" value="" /></td>
+                            <td>
+                                What is the full form ASP?
+                            </td>
+                            <td>
+                                Access Server Pages
+                            </td>
+                            <td>
+                                Active Service Pages
+                            </td>
+                            <td>
+                                Active Server Pages
+                            </td>
+                            <td>
+                                Access Service Pages
+                            </td>
+                            <td>C</td>
+                            <td>20</td>
+                            <td>
+                                
+                                <a href="#" class="btn btn-outline-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash">Delete</i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

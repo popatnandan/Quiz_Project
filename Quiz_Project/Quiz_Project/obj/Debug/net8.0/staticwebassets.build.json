@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CZVUYwCySxggziHxsnT4VOB0dsOn0jCPpTdd2Pmx2Dc=",
+  "Hash": "rSOAI3Hw6pF01i89C6Jw4dsZJ2k5VYQESjoOPS9hSLU=",
   "Source": "Quiz_Project",
   "BasePath": "_content/Quiz_Project",
   "Mode": "Default",
@@ -556,8 +556,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8q78rmbpvf",
-      "Integrity": "4CMXR5j8oUyILQEtt5svxsm6tRWjKe/X0uHktTULhVU=",
+      "Fingerprint": "gzyk4q8skw",
+      "Integrity": "5GWqY4TTd2/+PxJAvCX0vKTOPRAj4lkKdOBENAEdSRM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
@@ -13707,7 +13707,7 @@
       ]
     },
     {
-      "Route": "assets/js/main.8q78rmbpvf.js",
+      "Route": "assets/js/main.gzyk4q8skw.js",
       "AssetFile": "D:\\DU\\SEM4\\.NET\\Quiz_Project\\Quiz_Project\\Quiz_Project\\wwwroot\\assets\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13717,7 +13717,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8716"
+          "Value": "10097"
         },
         {
           "Name": "Content-Type",
@@ -13725,11 +13725,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4CMXR5j8oUyILQEtt5svxsm6tRWjKe/X0uHktTULhVU=\""
+          "Value": "\"5GWqY4TTd2/+PxJAvCX0vKTOPRAj4lkKdOBENAEdSRM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 07:55:36 GMT"
+          "Value": "Wed, 05 Mar 2025 14:00:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13739,7 +13739,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8q78rmbpvf"
+          "Value": "gzyk4q8skw"
         },
         {
           "Name": "label",
@@ -13747,7 +13747,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4CMXR5j8oUyILQEtt5svxsm6tRWjKe/X0uHktTULhVU="
+          "Value": "sha256-5GWqY4TTd2/+PxJAvCX0vKTOPRAj4lkKdOBENAEdSRM="
         }
       ]
     },
@@ -13762,7 +13762,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8716"
+          "Value": "10097"
         },
         {
           "Name": "Content-Type",
@@ -13770,11 +13770,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4CMXR5j8oUyILQEtt5svxsm6tRWjKe/X0uHktTULhVU=\""
+          "Value": "\"5GWqY4TTd2/+PxJAvCX0vKTOPRAj4lkKdOBENAEdSRM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 07:55:36 GMT"
+          "Value": "Wed, 05 Mar 2025 14:00:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13784,7 +13784,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4CMXR5j8oUyILQEtt5svxsm6tRWjKe/X0uHktTULhVU="
+          "Value": "sha256-5GWqY4TTd2/+PxJAvCX0vKTOPRAj4lkKdOBENAEdSRM="
         }
       ]
     },

@@ -1,0 +1,106 @@
+﻿<section class="section">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Add Quiz Wise Question</h2>
+                <table class="table">
+                    <hr/>
+                    <!-- No Labels Form -->
+                    <form class="row g-3">
+                    <thead>
+                        <tr>
+                            <td>
+                                <div class="col-md-24">
+                                    <label for="TotalQuetionAllowed" class="form-label">
+                                        <span class="required bold text-danger">*</span>
+                                        Total Quetion Allowed
+                                    </label>
+                                    <input type="text" class="form-control" id="TotalQuetionAllowed" placeholder="10">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-md-24">
+                                    <label for="SelectedQuestionsCount" class="form-label">
+                                        <span class="required bold text-danger">*</span>
+                                        Selected Questions Count
+                                    </label>
+                                    <input type="text" class="form-control" id="SelectedQuestionsCount" placeholder="Enter Question">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-md-24">
+                                    <label for="SelectQuiz" class="form-label">
+                                        <span class="required bold text-danger">*</span>
+                                        Select Quiz
+                                    </label>
+                                    <select class="form-select" aria-label="" id="SelectQuiz">
+                                        <option value="1">EASY</option>
+                                        <option value="2">MEDIUM</option>
+                                        <option value="3">HARD</option>
+                                    </select>
+                                </div>
+                            </td>
+                    </tr>
+                    </thead>
+                    </form><!-- End No Labels Form -->
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Question</th>
+                            <th scope="col">Option A</th>
+                            <th scope="col">Option B</th>
+                            <th scope="col">Option C</th>
+                            <th scope="col">Option D</th>
+                            <th scope="col">Answer</th>
+                            <th scope="col">Marks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="name" value="" /></td>
+                            <td>
+                                ASP.NET is a ____.
+                            </td>
+                            <td>
+                                Client-Side technology
+                            </td>
+                            <td>
+                                Server-side technology
+                            </td>
+                            <td>Both</td>
+                            <td>None</td>
+                            <td>B</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="name" value="" /></td>
+                            <td>
+                                What is the full form ASP?
+                            </td>
+                            <td>
+                                Access Server Pages
+                            </td>
+                            <td>
+                                Active Service Pages
+                            </td>
+                            <td>
+                                Active Server Pages
+                            </td>
+                            <td>
+                                Access Service Pages
+                            </td>
+                            <td>C</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success mt-3">Save</button>
+                    <button type="button" class="btn btn-danger mt-3" onclick="resetForm()">
+                        <i class="fas fa-times"></i> Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -44,12 +44,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZWVkSGVscC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/QuestionLevel/AddQuestionLevel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxBZGRRdWVzdGlvbkxldmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/QuestionLevel/QuestionLevels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxRdWVzdGlvbkxldmVscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/Question/AddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cQWRkRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/Question/QuestionList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cUXVlc3Rpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/QuizWiseQuestion/AddQuizWiseQuestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxBZGRRdWl6V2lzZVF1ZXN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/QuizWiseQuestion/QuizWiseQuestionDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9uRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/QuizWiseQuestion/QuizWiseQuestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DU/SEM4/.NET/Quiz_Project/Quiz_Project/Quiz_Project/Views/Quiz/AddEdit.cshtml]

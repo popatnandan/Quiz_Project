@@ -50,12 +50,22 @@ EXEC PR_MST_Quiz_DELETE 2
 SELECT * FROM [dbo].[MST_Quiz]
 
 -------------- MST_Quiz TABLE SelectAll --------------
-CREATE PROCEDURE PR_MST_Quiz_SelectAll
+ALTER PROCEDURE [dbo].[PR_MST_Quiz_SelectAll]
 AS
 BEGIN
-SELECT * FROM [dbo].[MST_Quiz]
+    SELECT 
+        [dbo].[MST_Quiz].[QuizID],
+        [dbo].[MST_Quiz].[QuizName],
+        [dbo].[MST_Quiz].[TotalQuestions],
+        [dbo].[MST_Quiz].[QuizDate],
+        [dbo].[MST_Quiz].[Created],
+        [dbo].[MST_Quiz].[Modified],
+        [dbo].[MST_Quiz].[UserID], 
+        [dbo].[MST_User].[UserName]
+    FROM [dbo].[MST_Quiz]
+    INNER JOIN [dbo].[MST_User]
+        ON [dbo].[MST_User].[UserID] = [dbo].[MST_Quiz].[UserID]
 END;
-GO
 
 EXEC PR_MST_Quiz_SelectAll
 SELECT * FROM [dbo].[MST_Quiz]
